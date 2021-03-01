@@ -1,11 +1,17 @@
+import React from "react"
 import { BrowserRouter as Router,
       Switch,
       Route, } from "react-router-dom"
+
+import Home from "../pages/home"
 
 export default function App(){
   return(
     <Router>
       <Switch>
+        <Route  exact path="/">
+          <Home />
+        </Route>
         <Route path="/signin">
           <p>Made it to signin</p>
         </Route>
@@ -15,11 +21,7 @@ export default function App(){
         </Route>
 
         <Route path="/browse">
-          <p>made it to browse</p>
-        </Route>
-
-        <Route  exact path="/">
-          <p>made it to home</p>
+          <p>Made it to browse</p>
         </Route>
       </Switch>
     </Router>
