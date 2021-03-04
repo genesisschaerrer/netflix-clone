@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-import Jumbotron from "../components/jumbotron"
+
+// import Jumbotron from "../components/jumbotron"
+import JumbortronContainer from "../containers/jumbotron"
+
 
 
 function Home() {
     return (
-        <Jumbotron.Container>
-            <Jumbotron.Title>Hello</Jumbotron.Title>
-            <Jumbotron.SubTitle>Hello</Jumbotron.SubTitle>
-        </Jumbotron.Container> 
+         <JumbortronContainer />
     )
 }
 
