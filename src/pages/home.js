@@ -10,10 +10,10 @@ import { FooterContainer} from "../containers/footer"
 
 function Home() {
     return (
-        <>
+        <div>
          <JumbortronContainer />
          <FooterContainer />
-        </>
+        </div>
     )
 }
 
