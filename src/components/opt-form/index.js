@@ -1,8 +1,6 @@
 import React from 'react'
 import {Container, Input, Button, Text} from "./styles/opt.form"
 
-import icon from "../../../static/images/icons/chevron-right.png"
-
 export default function OptForm({children, ...restProps}){
     return <Container {...restProps}>{children}</Container>
 } 
