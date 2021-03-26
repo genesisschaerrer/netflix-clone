@@ -4,7 +4,6 @@ import { FaqsContainer } from "../containers/faqs"
 import JumbortronContainer from "../containers/jumbotron"
 import { FooterContainer} from "../containers/footer"
 import { HeaderContainer} from "../containers/header"
-import { Header } from '../components/accordion/styles/accordion';
 
 function Home() {
     return (
