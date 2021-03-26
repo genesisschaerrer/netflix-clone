@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Input, Button, Text} from "./styles/opt.form"
 
+import LogoBtn from "../../../static/images/icons/chevron-right.png"
 export default function OptForm({children, ...restProps}){
     return <Container {...restProps}>{children}</Container>
 } 
@@ -13,7 +14,7 @@ OptForm.Button = function OptFormButton({children, ...restProps}){
     return (
         <Button>
             {children}
-            <img src="../../../static/images/icons/chevron-right.png" alt="try now" />
+            <img src={LogoBtn} />
         </Button>
     )
 }

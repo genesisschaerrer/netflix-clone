@@ -1,16 +1,20 @@
 import React from 'react';
 
-// import Jumbotron from "../components/jumbotron"
 import { FaqsContainer } from "../containers/faqs"
 import JumbortronContainer from "../containers/jumbotron"
 import { FooterContainer} from "../containers/footer"
+import { HeaderContainer} from "../containers/header"
+import { Header } from '../components/accordion/styles/accordion';
 
 function Home() {
     return (
         <div>
-         <JumbortronContainer />
-         <FaqsContainer />
-         <FooterContainer />
+            <HeaderContainer>
+                <p>hello</p>
+            </HeaderContainer>
+            <JumbortronContainer />
+            <FaqsContainer />
+            <FooterContainer />
         </div>
     )
 }
